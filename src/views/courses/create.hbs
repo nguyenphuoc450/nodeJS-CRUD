@@ -1,0 +1,38 @@
+<div class="container mt-4">
+  <h2 class="text-center">Tạo mới</h2>
+  <form method="POST" action="/courses/store">
+    <div class="mb-3">
+      <label for="name" class="form-label">Tên</label>
+      <input
+        type="text"
+        class="form-control"
+        id="name"
+        name="name"
+        autocomplete="off"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="description" class="form-label">Mô tả</label>
+      <input
+        type="text"
+        class="form-control"
+        id="description"
+        name="description"
+        autocomplete="off"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="videoID" class="form-label">Video ID</label>
+      <input
+        type="text"
+        class="form-control"
+        id="videoID"
+        name="videoID"
+        autocomplete="off"
+      />
+    </div>
+    <div class="col-auto">
+      <button type="submit" class="btn btn-primary mb-3">Tạo</button>
+    </div>
+  </form>
+</div>
